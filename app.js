@@ -3,6 +3,6 @@
 let btn = document.querySelector("button");
 let ul = document.querySelector("ul");
 
-btn.addEventListenerc("click", function(){
+btn.addEventListener("click", function(){
     ul.classList.toggle("hide");
 })
